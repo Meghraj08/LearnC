@@ -11,6 +11,7 @@ void swapping(int *x,int *y)
 void main()
 {
     int a=5,b=10;
+    printf(" Before Calling Function :- a=%d & b=%d \n",a,b);
     swapping(&a,&b);
-    printf(" a=%d & b=%d ",a,b);
+    printf(" After Calling Function :- a=%d & b=%d \n",a,b);
 }
