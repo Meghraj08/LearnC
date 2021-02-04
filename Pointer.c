@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<string.h>
 void swapping(int *x,int *y)
 {
     int t;
